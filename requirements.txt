@@ -1,0 +1,4 @@
+SimpleITK==1.2.0
+nibabel==2.4.1
+numpy==1.17.0
+torch==0.4.1
