@@ -36,12 +36,19 @@ pip install -r requirements.txt
 ```
 
 ## Usage
-### 1. Train 
+### 1. Preprocess
+* Run command as below.
+```bash
+python pre_process.py --input="./raw_data/" --output="./train_data/"
+```
+
+### 2. Train 
 * Run command as below.
 ```bash
 python train.py -j=16 -b=12 --input="train_data/" --output="./checkpoint/"
 ```
-### 2. Inference 
+
+### 3. Inference 
 * Click the [checkpoint link(GoogleDrive)](https://drive.google.com/drive/folders/138_EpuZaMB0sS_dVmO0ux6_07sFfwRKZ?usp=sharing) to download trained model into "./checkpoint".
 * Click the [data link(GoogleDrive)](https://drive.google.com/file/d/1M76tVZp-dqW9COlESnh0n8iuii5PKiS8/view?usp=sharing) to download test image "brain_CTA.nii.gz" 
 * Run command as below.
