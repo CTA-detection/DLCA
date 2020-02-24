@@ -48,7 +48,8 @@ python pre_process.py --input="./raw_data/" --output="./train_data/"
 python train.py -j=16 -b=12 --input="train_data/" --output="./checkpoint/"
 ```
 ### 2. Inference 
-* Click the [link(GoogleDrive)](https://drive.google.com/drive/folders/138_EpuZaMB0sS_dVmO0ux6_07sFfwRKZ?usp=sharing) to download trained model into "./checkpoint".
+* Click the [checkpoint link(GoogleDrive)](https://drive.google.com/drive/folders/138_EpuZaMB0sS_dVmO0ux6_07sFfwRKZ?usp=sharing) to download trained model into "./checkpoint".
+* Click the [data link(GoogleDrive)](https://drive.google.com/file/d/1M76tVZp-dqW9COlESnh0n8iuii5PKiS8/view?usp=sharing) to download test image "brain_CTA.nii.gz" 
 * Run command as below.
 ```bash
 # an example with the image named "brain_CTA.nii.gz"
