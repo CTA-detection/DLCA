@@ -36,6 +36,12 @@ pip install -r requirements.txt
 ```
 
 ## Usage
+### 1. Preprocess
+* Run command as below.
+```bash
+python pre_process.py --input="./raw_data/" --output="./train_data/"
+```
+
 ### 1. Train 
 * Run command as below.
 ```bash
