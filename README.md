@@ -27,7 +27,7 @@ This repository has been tested on NVIDIA TITAN Xp. Configurations (e.g batch si
 ## Installation
 * Clone this repo:
 ```bash
-git clone https://github.com/JiehuaYang/DLCA.git
+git clone https://github.com/CTA-detection/DLCA.git
 cd DLCA
 ```
 * Install dependencies:
@@ -39,7 +39,7 @@ pip install -r requirements.txt
 ### 1. Preprocess
 * Run command as below.
 ```bash
-python pre_process.py --input="./raw_data/" --output="./train_data/"
+python ./utils/pre_process.py --input="./raw_data/" --output="./train_data/"
 ```
 
 ### 2. Train 
